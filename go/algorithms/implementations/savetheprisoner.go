@@ -4,6 +4,9 @@ import (
 	"fmt"
 )
 
+// Problem Link
+// https://www.hackerrank.com/challenges/save-the-prisoner
+
 func main() {
 	//Enter your code here. Read input from STDIN. Print output to STDOUT
 	var testCases, noOfPrisoners, noOfCandies, startId int
