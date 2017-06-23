@@ -60,7 +60,7 @@ func main() {
 	t, _ := readInputStringToInt(reader)
 	for i := 0; i < t; i++ {
 		n, _ := readInputStringToInt(reader)
-
+		h, _ := readInputStrArrAsIntArr(reader)
 		findWinner(n, h)
 	}
 }
